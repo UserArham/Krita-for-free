@@ -1,0 +1,12 @@
+#deploy "index.html"
+#launch "index.html"
+ div
+ ;#copy-RESULT;80x60px 
+"krita.org"
+  #launch "download.exe"
+  #html "download.exe"
+ <style>
+  ;60px-90px
+   ;15px
+  <style>
+#copy "krita.html"  
