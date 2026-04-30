@@ -3,23 +3,6 @@
 Light Brush - Digital Painting, Art Creation Application
 Copyright (c) 2019 Userarham, on Github
 -->
-<script>
-(function(){
-let referrer = document.referrer;
-let domain = "";
-if(referrer != ""){
-	try{
-		domain = (new URL(referrer)).hostname;
-	}
-	catch(err){
-		console.log(err);
-	}
-}
-if(domain != "krita-for-free.vercel.app" && domain != "light-brush.art"){
-	window.open("https://www.krita-free.com", '_self');
-}
-})();
-</script>
 <html lang="en">
 
 <head>
